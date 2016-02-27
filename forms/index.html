@@ -9,45 +9,45 @@
 	<form>
 		<label>
 			First Name:
-			<input type="text">
+			<input type="text" name="firstName">
 		</label>
 		<label>
 			Last Name:
-			<input type="text">
+			<input type="text" name="lastName">
 		</label>
 		<label>
 			Male
-			<input type="radio">
+			<input type="radio" name="gender">
 		</label>
 		<label>
 			Female
-			<input type="radio">
+			<input type="radio" name="gender">
 		</label>
 		<label>
 			Other
-			<input type="radio">
+			<input type="radio" name="gender">
 		</label>
 		<label>
 			Email:
-			<input type="email">
+			<input type="email" name="email">
 		</label>
 		<label>
 			Password:
-			<input type="password">
+			<input type="password" name="password">
 		</label>
 		<label>
 			Birthday:
-			<select>
+			<select name="month">
 				<option value="01">Jan</option>
 				<option value="02">Feb</option>
 				<option value="03">Mar</option>
 			</select>
-			<select>
+			<select name="day">
 				<option value="01">1</option>
 				<option value="02">2</option>
 				<option value="03">3</option>
 			</select>
-			<select>
+			<select name="year">
 				<option>2016</option>
 				<option>2015</option>
 				<option>2014</option>
@@ -55,7 +55,7 @@
 		</label>
 		<label>
 			I agree to the terms and conditions
-			<input type="checkbox">
+			<input type="checkbox" name="acceptTerms">
 		</label>
 		<input type="submit" value="Create Account">
 	</form>
