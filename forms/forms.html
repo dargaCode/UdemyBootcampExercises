@@ -1,86 +1,86 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Registration Form</title>
+  <title>Registration Form</title>
 </head>
 <body>
 
-	<h1>Register</h1>
+  <h1>Register</h1>
 
-	<form>
+  <form>
 
-		<div class="row">
-			<label>
-				First Name:
-				<input type="text" name="firstName" placeholder="Jane" required>
-			</label>
-			<label>
-				Last Name:
-				<input type="text" name="lastName" placeholder="Smith" required>
-			</label>
-		</div>
+    <div class="row">
+      <label>
+        First Name:
+        <input type="text" name="firstName" placeholder="Jane" required>
+      </label>
+      <label>
+        Last Name:
+        <input type="text" name="lastName" placeholder="Smith" required>
+      </label>
+    </div>
 
-		<div class="row">
-			<label>
-				Female
-				<input type="radio" name="gender" value="female">
-			</label>
-			<label>
-				Male
-				<input type="radio" name="gender" value="male">
-			</label>
-			<label>
-				Other
-				<input type="radio" name="gender" value="other">
-			</label>
-		</div>
+    <div class="row">
+      <label>
+        Female
+        <input type="radio" name="gender" value="female">
+      </label>
+      <label>
+        Male
+        <input type="radio" name="gender" value="male">
+      </label>
+      <label>
+        Other
+        <input type="radio" name="gender" value="other">
+      </label>
+    </div>
 
-		<div class="row">
-			<label>
-				Email:
-				<input type="email" name="email" placeholder="example@host.com" required>
-			</label>
-			<label>
-				Password:
-				<input type="password" name="password" placeholder="5-10 characters" pattern=".{5,}" maxlength="10" title="5-10 characters" required>
-			</label>
-		</div>
+    <div class="row">
+      <label>
+        Email:
+        <input type="email" name="email" placeholder="example@host.com" required>
+      </label>
+      <label>
+        Password:
+        <input type="password" name="password" placeholder="5-10 characters" pattern=".{5,}" maxlength="10" title="5-10 characters" required>
+      </label>
+    </div>
 
-		<div class="row">
-			<label>
-				Birthday:
-				<select name="month">
-					<option value="">Month</option>
-					<option value="01">Jan</option>
-					<option value="02">Feb</option>
-					<option value="03">Mar</option>
-				</select>
-				<select name="day">
-					<option value="">Day</option>
-					<option value="01">1</option>
-					<option value="02">2</option>
-					<option value="03">3</option>
-				</select>
-				<select name="year">
-					<option value="">Year</option>
-					<option>2016</option>
-					<option>2015</option>
-					<option>2014</option>
-				</select>
-			</label>
-		</div>
+    <div class="row">
+      <label>
+        Birthday:
+        <select name="month">
+          <option value="">Month</option>
+          <option value="01">Jan</option>
+          <option value="02">Feb</option>
+          <option value="03">Mar</option>
+        </select>
+        <select name="day">
+          <option value="">Day</option>
+          <option value="01">1</option>
+          <option value="02">2</option>
+          <option value="03">3</option>
+        </select>
+        <select name="year">
+          <option value="">Year</option>
+          <option>2016</option>
+          <option>2015</option>
+          <option>2014</option>
+        </select>
+      </label>
+    </div>
 
-		<div class="row">
-			<label>
-				I agree to the terms and conditions
-				<input type="checkbox" name="acceptTerms" value="true" required>
-			</label>
-		</div>
+    <div class="row">
+      <label>
+        I agree to the terms and conditions
+        <input type="checkbox" name="acceptTerms" value="true" required>
+      </label>
+    </div>
 
-		<div class="row">
-			<input type="submit" value="Create Account">
-		</div>
-	</form>
+    <div class="row">
+      <input type="submit" value="Create Account">
+    </div>
+  </form>
 
 </body>
 </html>

@@ -1,24 +1,24 @@
 
 body {
-	text-align: center;
+  text-align: center;
 }
 
 table {
-	margin: 0 auto;
-	border-spacing: 0;
+  margin: 0 auto;
+  border-spacing: 0;
 }
 
 td {
-	width: 100px;
-	height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 td:nth-of-type(2) {
-	border-left: 2px solid black;
-	border-right: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
 }
 
 tr:nth-of-type(2) td {
-	border-top: 2px solid black;
-	border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
