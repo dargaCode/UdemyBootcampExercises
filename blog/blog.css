@@ -10,8 +10,11 @@ body {
 .container {
   max-width: 750px;
   margin: 0 auto;
-  padding: 0 20px;
   border: 20px solid #bdc3c7;
+}
+
+.post {
+  padding: 0 20px;
 }
 
 h1 {
