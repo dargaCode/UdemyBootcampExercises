@@ -1,4 +1,4 @@
- /*Style the HTML elements according to the following instructions. 
+ /*Style the HTML elements according to the following instructions.
 
  DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS!*/
 
@@ -20,7 +20,7 @@ h2 {
 	color: orange;
 }
 
-/* Make all <li> elements blue(pick your own hexadecimal blue)*/ 
+/* Make all <li> elements blue(pick your own hexadecimal blue)*/
 
 li {
 	color: #3323CC;
