@@ -3,6 +3,12 @@
 body {
   font-family: Lato, sans-serif;
 
+/*HEADINGS*/
+
+h1, h3 {
+  color: white;
+}
+
 /*MAIN*/
 
 .container .content {
