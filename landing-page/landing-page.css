@@ -2,4 +2,10 @@
 
 body {
   font-family: Lato, sans-serif;
+
+/*MAIN*/
+
+.container .content {
+  text-align: center;
+  padding-top: 25%;
 }
