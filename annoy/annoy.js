@@ -2,7 +2,10 @@ var thereYet = false;
 
 while (!thereYet) {
   var response = prompt("Are we there yet?");
-  if (response === "yes" || response === "yeah" || response === "yep") {
+  var yesIndex = response.indexOf("yes");
+  var yeahIndex = response.indexOf("yeah");
+  var yepIndex = response.indexOf("yep");
+  if (yesIndex >= 0 || yeahIndex >=0 || yepIndex >= 0) {
     thereYet = true;
   }
 }
