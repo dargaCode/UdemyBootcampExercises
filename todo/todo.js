@@ -4,7 +4,7 @@ var command;
 
 function listTodos() {
   if (todos.length === 0) {
-    console.log("There are no Todos to list!");
+    console.log("There are no items to list!");
   }
 
   else {
