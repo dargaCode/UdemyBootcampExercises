@@ -2,6 +2,9 @@ var todos = [];
 
 var command;
 
+
+console.log("Started the Todo List app!");
+
 while (command !== "quit") {
   command = prompt("What would you like to do?").trim();
 
