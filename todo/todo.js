@@ -2,6 +2,20 @@ var todos = [];
 
 var command;
 
+function listTodos() {
+  if (todos.length === 0) {
+    console.log("There are no Todos to list!");
+  }
+
+  else {
+    console.log("**********");
+    todos.forEach(function(item, index) {
+      console.log(index + " - " + item);
+    });
+    console.log("**********");
+  }
+}
+
 function addTodo() {
   var newTodo = prompt("Enter your new todo:");
   todos.push(newTodo);
@@ -17,17 +31,7 @@ while (command !== "quit") {
     addTodo();
   }
   else if (command === "list") {
-    if (todos.length === 0) {
-      console.log("There are no Todos to list!");
-    }
-
-    else {
-      console.log("**********");
-      todos.forEach(function(item, index) {
-        console.log(index + " - " + item);
-      });
-      console.log("**********");
-    }
+    listTodos();
   }
 
 }
