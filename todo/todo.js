@@ -35,8 +35,8 @@ function removeTodo() {
     }
 
     else {
-      var remodedTodo = todos.splice(removeIndex, 1);
-      console.log('Removed item "' + remodedTodo + '"');
+      var removedTodo = todos.splice(removeIndex, 1);
+      console.log('Removed item "' + removedTodo + '"');
     }
   }
 }
