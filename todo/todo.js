@@ -16,4 +16,5 @@ while (command !== "quit") {
 
 }
 
-console.log("Exited the todo app!");
+console.log("Quit the Todo List app!");
+console.log("");
