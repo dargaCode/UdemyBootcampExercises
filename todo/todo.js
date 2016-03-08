@@ -29,8 +29,15 @@ function removeTodo() {
 
   else {
     var removeIndex = prompt("What number item would you like to remove?");
-    var remodedTodo = todos.splice(removeIndex, 1);
-    console.log('Removed item "' + remodedTodo + '"');
+
+    if (removeIndex < 0 || removeIndex > todos.length-1 || isNaN(Number(removeIndex))) {
+      console.log("There is no item with that number.");
+    }
+
+    else {
+      var remodedTodo = todos.splice(removeIndex, 1);
+      console.log('Removed item "' + remodedTodo + '"');
+    }
   }
 }
 
