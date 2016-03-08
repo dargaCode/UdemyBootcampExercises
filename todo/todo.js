@@ -5,7 +5,7 @@ var command;
 while (command !== "quit") {
   command = prompt("What would you like to do?");
 
-  if (command === "new") {
+  if (command === "add") {
     var newTodo = prompt("Enter your new task:");
     todos.push(newTodo);
     console.log('Added item "' + newTodo + '"');
