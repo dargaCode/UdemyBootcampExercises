@@ -11,10 +11,8 @@ console.log("isEven(333) returns", isEven(333));
 
 function factorial(number) {
   var total = 1;
-  if (number !== 0) {
-    for (var i = number; i > 1; i--) {
-      total *= i;
-    }
+  for (var i = 2; i <= number; i++) {
+    total *= i;
   }
   return total;
 }
