@@ -33,4 +33,3 @@ console.log("KEBAB TO SNAKE");
 console.log('kebabToSnake("hello-world") returns "' + kebabToSnake("hello-world") + '"');
 console.log('kebabToSnake("dogs-are-awesome") returns "' + kebabToSnake("dogs_are_awesome") + '"');
 console.log('kebabToSnake("blah") returns "' + kebabToSnake("blah") + '"');
-
