@@ -17,7 +17,7 @@ function listTodos() {
 }
 
 function addTodo() {
-  var newTodo = prompt("Enter your new todo:");
+  var newTodo = prompt("Name your new Todo List item:");
   todos.push(newTodo);
   console.log('Added item "' + newTodo + '"');
 }
