@@ -17,7 +17,17 @@ while (command !== "quit") {
     addTodo();
   }
   else if (command === "list") {
-    console.log(todos);
+    if (todos.length === 0) {
+      console.log("There are no Todos to list!");
+    }
+
+    else {
+      console.log("**********");
+      todos.forEach(function(item, index) {
+        console.log(index + " - " + item);
+      });
+      console.log("**********");
+    }
   }
 
 }
