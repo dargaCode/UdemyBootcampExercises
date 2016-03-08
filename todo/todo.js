@@ -22,6 +22,18 @@ function addTodo() {
   console.log('Added item "' + newTodo + '"');
 }
 
+function removeTodo() {
+  if (todos.length === 0) {
+    console.log("There are no items to remove!");
+  }
+
+  else {
+    var removeIndex = prompt("What number item would you like to remove?");
+    var remodedTodo = todos.splice(removeIndex, 1);
+    console.log('Removed item "' + remodedTodo + '"');
+  }
+}
+
 console.log("Started the Todo List app!");
 
 while (command !== "quit") {
@@ -32,6 +44,9 @@ while (command !== "quit") {
   }
   else if (command === "list") {
     listTodos();
+  }
+  else if (command === "remove") {
+    removeTodo();
   }
 
 }
