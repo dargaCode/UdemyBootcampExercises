@@ -59,7 +59,7 @@ console.log(selection);
 //QUERY CHILD TAG
 
 console.log("");
-console.log("UERY CHILD TAG");
+console.log("QUERY CHILD TAG");
 
 console.log('10 - selection = document.querySelector("body p");');
 selection = document.querySelector("body p");
@@ -72,7 +72,7 @@ console.log(selection);
 //QUERY IMMEDIATE CHILD TAG
 
 console.log("");
-console.log("UERY IMMEDIATE CHILD TAG");
+console.log("QUERY IMMEDIATE CHILD TAG");
 
 console.log('12 - selection = document.querySelector("body > p");');
 selection = document.querySelector("body > p");
@@ -85,7 +85,7 @@ console.log(selection);
 //QUERY ADJACENT TAG
 
 console.log("");
-console.log("UERY ADJACENT TAG");
+console.log("QUERY ADJACENT TAG");
 
 console.log('14 - selection = document.querySelector("h1 + p");');
 selection = document.querySelector("h1 + p");
@@ -95,10 +95,10 @@ console.log('15 - selection = document.querySelectorAll("h1 + p")[0];');
 selection = document.querySelectorAll("h1 + p")[0];
 console.log(selection);
 
-//QUERY PSEUDOSELECTORS
+//QUERY TAG PSEUDO-CLASSES
 
 console.log("");
-console.log("UERY PSEUDOSELECTORS");
+console.log("QUERY TAG PSEUDO-CLASSES");
 
 console.log('16 - selection = document.querySelector("p:nth-child(2)");');
 selection = document.querySelector("p:nth-child(2)");
