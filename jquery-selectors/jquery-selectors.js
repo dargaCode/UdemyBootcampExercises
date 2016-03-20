@@ -2,7 +2,7 @@
 $("div").css("backgroundColor", "purple");
 
 // Select all divs with class "highlight" and make them 200px wide.
-$(".highlight").css("width", "200px");
+$("div.highlight").css("width", "200px");
 
 // Select the div with id "third" and give it an orange border.
 $("#third").css("border", "2px solid orange");
