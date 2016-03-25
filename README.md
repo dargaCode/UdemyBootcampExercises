@@ -3,7 +3,7 @@
 
 I’m 100 lectures into <a href="https://www.udemy.com/the-web-developer-bootcamp/">the course I’m taking on Udemy</a>, and I’m really enjoying it. I decided to make sure I actually complete the exercises.
 
-A lof of the first sections are review, but I’m glad I didn’t skip them, since they also contain new information in many cases.
+A lot of the first sections are review, but I’m glad I didn’t skip them, since they also contain new information in many cases.
 
 Both cases are great: either I blast right through the lectures and exercises, or I end up learning something I wasn’t aware of before.
 
