@@ -33,6 +33,13 @@
       });
     }
 
+    function onResize(event) {
+      var width = view.viewSize.width;
+      var height = view.viewSize.height;
+      project.clear();
+      drawCircleGrid(width, height);
+    }
+
     /*MAIN*/
 
     var canvasWidth = view.viewSize.width;
