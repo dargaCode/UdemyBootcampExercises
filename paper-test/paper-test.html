@@ -6,6 +6,39 @@
   <script type="text/javascript" src="paper-full.min.js"></script>
   <script type="text/paperscript" canvas="myCanvas">
 
+    var STARTING_X = 100;
+    var STARTING_Y = 100;
+    var RADIUS = 16;
+    var GRID_DISTANCE = 100;
+
+    function drawCircleGrid(width, height) {
+      var xCoordinate = STARTING_X;
+      var yCoordinate = STARTING_Y;
+
+      while (yCoordinate <= height - GRID_DISTANCE) {
+        xCoordinate = STARTING_X;
+        while (xCoordinate < width - GRID_DISTANCE) {
+          drawRedCircle(xCoordinate, yCoordinate, RADIUS);
+          xCoordinate += GRID_DISTANCE;
+        }
+        yCoordinate += GRID_DISTANCE;
+      }
+    }
+
+    function drawRedCircle(centerX, centerY, radius) {
+      var path = new Path.Circle({
+        center: new Point(centerX, centerY),
+        radius: radius,
+        strokeColor: "red"
+      });
+    }
+
+    /*MAIN*/
+
+    var canvasWidth = view.viewSize.width;
+    var canvasHeight = view.viewSize.height;
+    drawCircleGrid(canvasWidth, canvasHeight);
+
   </script>
 </head>
 <body>
