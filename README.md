@@ -11,6 +11,6 @@ The course does have some “real” projects coming up soon, and I’ll continu
 
 This quasi-project is the first time I’ve worked with multiple pages linked together, so I’ve been learning how that workflow is in git, as well as figuring out how to best name things, etc.
 
-<a href="http://dargacode.github.io/UdemyBootcampExercises/">Live Webpage</a>
+**<a href="http://dargacode.github.io/UdemyBootcampExercises/">Live Webpage</a>**
 
-<img src ="http://41.media.tumblr.com/db25d7d3cef5b2972ff1d6437b006afb/tumblr_inline_o3p48tlV5t1tvc5hi_1280.png" width=“500" height="500">
+<img src ="http://41.media.tumblr.com/db25d7d3cef5b2972ff1d6437b006afb/tumblr_inline_o3p48tlV5t1tvc5hi_1280.png" width="550">
